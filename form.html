@@ -10,10 +10,11 @@
     <form action="">
         <fieldset>
             <legend>Student's details</legend>
-            First Name:<br>  <input type="text" name="mf"placeholder="Enter name"><br>
+            First Name:<br>  <input type="text" name="mf"placeholder="Enter name" required><br>
             Last Nmae :<br>   <input type="text"name="fm"placeholder="last name"><br>
-            Roll Number:<br>   <input type="text"name="rol"placeholder="rollnumber"><br>
+            Roll Number:<br>   <input type="text"name="rol"placeholder="Rollnumber"><br>
             Student Number:<br><input type="text"name="num"placeholder="Studentnum"><br>
+            Address:<br><textarea placeholder="Fll address"></textarea>
             <mark>Creation of button</mark>
             Age:<input type="radio"name="age">Under 18
                 <input type="radio"name="age">Over 18
@@ -26,12 +27,16 @@
                    <input type="checkbox"name="2">Hockey
                    <input type="checkbox"name="3">Cricket
                    <input type="checkbox"name="4">Dance<br>
-                   <sellect name="Qualification">
-                  <option>B.TECH</option>
-                  <option>M.TECH</option>
-                  <option>MCA</option>
-                  <option>BCA</option>
-                   </sellect>
+                   <lable>Qualification</lable>
+                   <select>
+                   <option value="B">B.TECH</option>
+                   <option value="M">M.TECH</option>
+                   <option value="MC">MCA</option>
+                   <option value="BC">BCA</option>
+                   </select>
+                   Password:<input type="password"name="password">
+                   Submit:<input type="submit"value="click here">
+                   Reset:<input type="reset">
         </fieldset>
     </form>
 
